@@ -19,8 +19,8 @@ load_dotenv()
 llm = GoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.environ["GOOGLE_API_KEY"])
 
 #DB connection established
-db_user = "postgres"         # Replace with your PostgreSQL username
-db_password = "pgsql123" # Replace with your PostgreSQL password
+db_user = ""         # Replace with your PostgreSQL username
+db_password = "" # Replace with your PostgreSQL password
 db_host = "localhost"
 db_port = "5432"             # Default PostgreSQL port
 db_name = "retail_sales_db"
